@@ -4595,6 +4595,139 @@ MonoBehaviour:
 
       </0>
 
+      <1>
+
+      <item>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.ORKFramework.CraftingRecipeItemSelection]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.ORKFramework.CraftingRecipeItemSelection]]></_type>
+
+      </_string>
+
+      <recipe>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      <_asset
+      asset="1" />
+
+      </settings>
+
+      </recipe>
+
+      </settings>
+
+      </item>
+
+      <quantityValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="1" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </quantityValue>
+
+      <chanceValue>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_float
+      value="100" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      <mathFunction>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </mathFunction>
+
+      </chanceValue>
+
+      </1>
+
       </item>
 
       </_subarrays>
@@ -4605,6 +4738,7 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: a5918cef35b2c9a42814f7dfd0ece916, type: 2}
+      - {fileID: 11400000, guid: c4d2f97b1d159a848ab7fe6b2f6db0e5, type: 2}
     encrypted: 0
     stringData: 
 --- !u!4 &284297643
@@ -26075,7 +26209,7 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
-      - {fileID: 11400000, guid: e6a41db509d882048adf999d5d33a05b, type: 2}
+      - {fileID: 11400000, guid: d18803c746bad69429474f4e8c89714b, type: 2}
     encrypted: 0
     stringData: 
 --- !u!4 &1410195715

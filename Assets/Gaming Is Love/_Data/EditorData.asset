@@ -16,11 +16,11 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 8
-  subSection: 0
-  tabIndex: -1
+  section: 7
+  subSection: 5
+  tabIndex: 10
   scrollY: 0
-  foldoutLimit: 
+  foldoutLimit: Attacks & Abilities
   helpDrag: 220
   subSectionDrag: 250
   tabListDrag: 250
@@ -36,9 +36,11 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 5234b67d81094d64e9fc5c607f53c5b1, type: 2}
+  - {fileID: 11400000, guid: e7e7a092baa705f469898bc9d276f967, type: 2}
+  - {fileID: 11400000, guid: 6016db33fac30084bb2fed113cb37ce9, type: 2}
   - {fileID: 11400000, guid: 52eab1318334a2243893cbd3f7ee53d7, type: 2}
   - {fileID: 11400000, guid: ed0dad98d18f7ea4e85079df3b4d827f, type: 2}
-  - {fileID: 11400000, guid: 6016db33fac30084bb2fed113cb37ce9, type: 2}
   - {fileID: 11400000, guid: cdaf444651bd526449fb9551fcae14b9, type: 2}
   - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
   - {fileID: 11400000, guid: 800b0dbc6ebfc6d4590b997addd8f3fa, type: 2}
@@ -54,8 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b7e2d65d80c1dd64d83f2f07ab2ea188, type: 2}
   - {fileID: 11400000, guid: 324de2a08295a5a4f8ff25fa2acb8127, type: 2}
   - {fileID: 11400000, guid: 8a7674f4ecd4cca45bd0509fd52c4ca8, type: 2}
-  - {fileID: 11400000, guid: 678e93c07aa929a41ae8342b0a25924a, type: 2}
-  - {fileID: 11400000, guid: b3cba4a8851169745a0a396ffc5683f5, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 

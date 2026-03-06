@@ -6238,6 +6238,7 @@ GameObject:
   - component: {fileID: 386589700}
   - component: {fileID: 386589699}
   - component: {fileID: 386589701}
+  - component: {fileID: 386589702}
   m_Layer: 10
   m_Name: IntroDialogue
   m_TagString: Player
@@ -6371,7 +6372,7 @@ MonoBehaviour:
       <startSetting needed="1" layerMask="-1" >
 
       <_bool
-      isTriggerEnter="True" isTriggerStay="True" isTriggerExit="True" startByCollider="True"
+      isTriggerEnter="True" isTriggerStay="False" isTriggerExit="False" startByCollider="True"
       startByTrigger="True" startByRoot="False" startByOther="False" limitLayers="False"
       />
 
@@ -6399,7 +6400,7 @@ Transform:
   m_GameObject: {fileID: 386589698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 220.66, y: 6.57, z: 420.26}
+  m_LocalPosition: {x: 234.53, y: 6.57, z: 421.38}
   m_LocalScale: {x: 45.215, y: 9.043, z: 45.215}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6424,8 +6425,162 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.72, y: 1.9, z: 1.58}
+  m_Size: {x: 0.25, y: 0.25, z: 0.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &386589702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386589698}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1046627721, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Makinom2.dll::GamingIsLove.Makinom.Components.AutoMachineComponent
+  serialize_conditionSetting:
+    name: conditionSetting
+    byteData: 
+    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
+
+      <_float
+      destroyCheckDelay="1" />
+
+      <_bool repeatCheck="False" />
+
+      <_subarrays>
+
+      <condition>
+
+      </condition>
+
+      </_subarrays>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
+  serialize_baseSettings:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <assetSetting executionType="0" updateType="0" priority="0"
+      endAction="0" >
+
+      <_float startDelayTime="0" endDelayTime="0" autoStopCheckTime="0"
+      />
+
+      <_bool inPause="False" setPriority="False" stopOnDestroy="True" turnStartingObject="False"
+      turnMachineObject="False" turnRestoreMachineObject="False" autoStop="False"
+      />
+
+      <_asset schematicAsset="0" />
+
+      <machineType>
+
+      <_string>
+
+      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
+
+      </_string>
+
+      <settings>
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
+
+      </_string>
+
+      </settings>
+
+      </machineType>
+
+      <inputID>
+
+      <_bool
+      overrideID="False" />
+
+      </inputID>
+
+      </assetSetting>
+
+      <changeAfterSetting>
+
+      <_bool
+      setVariables="False" />
+
+      </changeAfterSetting>
+
+      <startVariableSetting>
+
+      <_bool
+      setStartVariables="False" />
+
+      </startVariableSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets:
+      - {fileID: 11400000, guid: 52eab1318334a2243893cbd3f7ee53d7, type: 2}
+    encrypted: 0
+    stringData: 
+  actor:
+  - actor: []
+  - actor: []
+  resources:
+    prefab: []
+    audioClip: []
+    audioMixer: []
+    audioMixerGroup: []
+    sprite: []
+    texture: []
+    material: []
+    physicMaterial: []
+    physicsMaterial2D: []
+  serialize_setting:
+    name: settings
+    byteData: 
+    xmlData: '<xmldata>
+
+      <startSetting>
+
+      <_float autoStartDelay="0" repeatDelay="0"
+      />
+
+      <_bool isStart="True" isEnable="False" isDisable="False" isDestroy="False"
+      isLevelWasLoaded="True" repeatExecution="False" />
+
+      <_string>
+
+      <_type><![CDATA[GamingIsLove.Makinom.Schematics.AutoMachineStartSetting]]></_type>
+
+      </_string>
+
+      <_subarrays>
+
+      <notifyStart>
+
+      </notifyStart>
+
+      </_subarrays>
+
+      </startSetting>
+
+      </xmldata>
+
+'
+    lookUp:
+      assets: []
+    encrypted: 0
+    stringData: 
 --- !u!1001 &395218271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20924,7 +21079,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509280839696641296, guid: 963bbbc26b86f2e41a58c53fdba29552, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 250.39331
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 1509280839696641296, guid: 963bbbc26b86f2e41a58c53fdba29552, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20932,7 +21087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509280839696641296, guid: 963bbbc26b86f2e41a58c53fdba29552, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 414.62625
+      value: 435.7
       objectReference: {fileID: 0}
     - target: {fileID: 1509280839696641296, guid: 963bbbc26b86f2e41a58c53fdba29552, type: 3}
       propertyPath: m_LocalRotation.w

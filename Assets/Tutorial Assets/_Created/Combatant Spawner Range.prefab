@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859829867663422689}
-  - component: {fileID: 4751083896690469936}
   m_Layer: 2
   m_Name: Battle
   m_TagString: Untagged
@@ -32,298 +31,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1509280839696641296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4751083896690469936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119533683731306275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1949375818, guid: 2f433824042009943be1767c00adb2ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serialize_conditionSetting:
-    name: conditionSetting
-    byteData: 
-    xmlData: '<xmldata autoCheckType="0" conditionFail="0" needed="0" >
-
-      <_float
-      destroyCheckDelay="1" />
-
-      <_bool repeatCheck="False" />
-
-      <_subarrays>
-
-      <condition>
-
-      </condition>
-
-      </_subarrays>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
-  serialize_startSetting:
-    name: startSettings
-    byteData: 
-    xmlData: '<xmldata>
-
-      <_bool turnStartingObject="False" turnMachineObject="False"
-      turnRestoreMachineObject="False" />
-
-      <machineType>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </machineType>
-
-      <autoStartSetting>
-
-      <_float
-      autoStartDelay="0" repeatDelay="0" />
-
-      <_bool isStart="False" isEnable="False"
-      isDisable="False" isDestroy="False" isLevelWasLoaded="False" repeatExecution="False"
-      />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.AutoMachineStartSetting]]></_type>
-
-      </_string>
-
-      <_subarrays>
-
-      <notifyStart>
-
-      </notifyStart>
-
-      </_subarrays>
-
-      </autoStartSetting>
-
-      <interactStartSetting
-      needed="0" >
-
-      <_float maxInteractionDistance="3" maxMouseDistance="3"
-      />
-
-      <_bool isInteract="False" isKeyPress="False" isDrop="False" isMouseDown="False"
-      isMouseDrag="False" isMouseUp="False" isMouseUpAsButton="False" isMouseEnter="False"
-      isMouseOver="False" isMouseExit="False" setInteractionDistance="False" setMouseDistance="False"
-      keyPressInTrigger="False" keyPressWhileColliding="False" startByRoot="False"
-      />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.InteractionMachineStartSetting]]></_type>
-
-      </_string>
-
-      <inputKey>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.ReferenceAssetSource`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </inputKey>
-
-      <_subarrays>
-
-      <dropCondition>
-
-      </dropCondition>
-
-      </_subarrays>
-
-      </interactStartSetting>
-
-      <moveToInteraction>
-
-      <_float
-      interactionRadius="1" stopDistance="1" />
-
-      <_bool useMoveToInteraction="True"
-      overrideInteractionRadius="False" setInteractionRadius="False" overrideStopDistance="False"
-      overrideMoveToSpeed="False" />
-
-      <moveToSpeed>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_float
-      value="5" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
-
-      </_string>
-
-      </settings>
-
-      <mathFunction>
-
-      <_string>
-
-      <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
-
-      </_string>
-
-      <settings>
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
-
-      </_string>
-
-      </settings>
-
-      </mathFunction>
-
-      </moveToSpeed>
-
-      </moveToInteraction>
-
-      <triggerStartSetting
-      needed="1" layerMask="-1" >
-
-      <_bool isTriggerEnter="False" isTriggerStay="False"
-      isTriggerExit="False" startByCollider="True" startByTrigger="True" startByRoot="False"
-      startByOther="False" limitLayers="False" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.TriggerMachineStartSetting]]></_type>
-
-      </_string>
-
-      </triggerStartSetting>
-
-      <collisionStartSetting
-      needed="1" layerMask="-1" >
-
-      <_bool isCollisionEnter="False" isCollisionStay="False"
-      isCollisionExit="False" isParticleCollision="False" isControllerColliderHit="False"
-      startByRoot="False" startByOther="False" limitLayers="False" />
-
-      <_string>
-
-      <_type><![CDATA[GamingIsLove.Makinom.Schematics.CollisionMachineStartSetting]]></_type>
-
-      </_string>
-
-      </collisionStartSetting>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
-  playerSpot: []
-  playerSpotPlayerAdvantage: []
-  playerSpotEnemyAdvantage: []
-  allySpot: []
-  allySpotPlayerAdvantage: []
-  allySpotEnemyAdvantage: []
-  enemySpot: []
-  enemySpotPlayerAdvantage: []
-  enemySpotEnemyAdvantage: []
-  serialize_setting:
-    name: settings
-    byteData: 
-    xmlData: '<xmldata sceneID="0" gridUseType="1" >
-
-      <_float appearingChance="100"
-      playerAdvantageChance="0" enemyAdvantageChance="0" />
-
-      <_bool useSceneID="False"
-      isGlobalSceneID="False" useAppearingChance="False" appearingChanceFailSetID="False"
-      canEscape="True" setLooks="False" keepAtCenter="False" enablePlayerAdvantage="True"
-      overridePlayerAdvantageChance="False" enableEnemyAdvantage="True" overrideEnemyAdvantageChance="False"
-      ownStartSchematic="False" ownEndSchematic="False" ownAutoJoin="False" noBattleSetID="False"
-      allGroups="False" useFactionGroups="False" useChanceSelection="False" useCombatantPositionSpots="False"
-      ownPlayerSpots="False" ownAllySpots="False" ownEnemySpots="False" />
-
-      <battleSystem>
-
-      <_bool
-      ownBattleSystem="False" />
-
-      </battleSystem>
-
-      <variableChanges>
-
-      <_subarrays>
-
-      <variable>
-
-      </variable>
-
-      </_subarrays>
-
-      </variableChanges>
-
-      <_subarrays>
-
-      <combatant>
-
-      </combatant>
-
-      <itemGains>
-
-      </itemGains>
-
-      </_subarrays>
-
-      </xmldata>
-
-'
-    lookUp:
-      assets: []
-    encrypted: 0
-    stringData: 
 --- !u!1 &250930870504411568
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,12 +395,10 @@ MonoBehaviour:
       <_bool setPosition="False" setRotation="False"
       useNearest="False" />
 
-      <_asset battleComponent="0" />
-
       <battleSystem>
 
-      <_bool
-      ownBattleSystem="False" />
+      <_bool ownBattleSystem="False"
+      />
 
       </battleSystem>
 
@@ -731,7 +436,7 @@ MonoBehaviour:
 
       </_floatarrays>
 
-      <_asset moveAIRange="1" />
+      <_asset moveAIRange="0" />
 
       <combatant>
 
@@ -757,7 +462,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="2" />
+      asset="1" />
 
       </settings>
 
@@ -780,7 +485,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="3" />
+      asset="2" />
 
       </settings>
 
@@ -900,7 +605,6 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 4751083896690469936}
       - {fileID: 336190857825396537}
       - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
       - {fileID: 11400000, guid: 91333bd8d5bc26d40b2f019e92512e1e, type: 2}

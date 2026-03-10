@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -326218779, guid: bfb06eec059d3a345ac43927a4389437, type: 3}
   m_Name: BattleEndVictory
   m_EditorClassIdentifier: 
-  time: 12/02/2026 9:25:31 PM
+  time: 10/03/2026 1:25:45 AM
   version: 2.21.0
   data:
     name: settings
